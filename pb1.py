@@ -1,6 +1,6 @@
 #Works successfully
 
-# Fonction nblist() permet de lister les multiples communs à deux entiers, dans l'interval [0 : limite]
+# Fonction commonMultiplesList() permet de lister les multiples communs à deux entiers, dans l'interval [0 : limite]
 def commonMultiplesList(limit, multiple1, multiple2):
   # Déclaration de la liste (vide)
   listInt = []
@@ -17,7 +17,7 @@ def commonMultiplesList(limit, multiple1, multiple2):
   #La fonction est arrivée au terme de sa tâche. Retourne la liste de multiples communs. 
   return listInt
 
-#Fonction sumListElements() addition les éléments d'une liste d'entiers
+#Fonction sumListElements() additionne les éléments d'une liste d'entiers
 def sumListElements(intList):
   result = 0
   for i in intList:
